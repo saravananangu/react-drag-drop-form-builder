@@ -1,0 +1,94 @@
+.toolbox-list{
+    max-height: 600px;
+    overflow-x: hidden;
+}
+
+.App{
+    padding: 1em;
+}
+
+.singleField{
+    text-transform: capitalize;
+    cursor: grabbing;
+}
+
+.singleField:hover{
+    background: #ccc;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.dragActive{
+    background: #ccc;
+}
+
+.single-field{
+    padding: 1ex;
+    margin: 1ex;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.cross{
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    vertical-align: center;
+    color: red;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.pull-right{
+    float: right;
+}
+
+.setting{
+    padding: 1em;
+    background: #fff;
+    border-radius: 8px;
+    -webkit-transition: all 2s; /* Safari */
+    transition: all 2s;
+}
+
+.vertical-align-middle{
+    vertical-align: middle;
+}
+.card-header{
+    background-color: #242d2a !important;
+    color: #fff;
+}
+.card-body.toolbox-list{
+
+}
+.card-body.toolbox-list .list-group{
+    display: block;
+    padding: 10px;
+}
+.card-body.toolbox-list .list-group .list-group-item{
+    display: inline-block;
+    width: 48%;
+    margin: 4px 1%;
+    padding: 10px;
+    border-left: 3px solid #252d2a;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.4);
+}
+.btn-dark{
+    background: #929292 !important;
+}
+.nav-tabs{
+    border-bottom: 1px solid rgba(37,45,42,0.8) !important;  
+}
+.nav-tabs .nav-link{
+    color: #252d2a;
+    border: 1px solid rgba(37,45,42,0.8) !important;
+}
+.nav-tabs .nav-link.active{
+    border-bottom: 1px solid #fff !important;
+}
+.modal-body.mobile{
+    /* background: url(../assets/img/mobile.png) no-repeat; */
+}
